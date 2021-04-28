@@ -1,0 +1,71 @@
+<div class="svg-wrapper">
+
+
+    <svg width = 600 height = 900>
+
+        <g>
+            <rect id='rect' y=10 x='10' width='30' height='30' rx='5' ry='5'
+                fill='#f7bb36'>
+                <title>attributeName='width' begin='mouseenter'</title>
+    
+                <animate attributeName='width' from='30' to='400' dur='0.8s' begin='mouseenter' >
+                </animate>
+            </rect>
+        </g>
+
+        <g>
+            <rect id='rect' y=50 x='10' width='30' height='30' rx='5' ry='5'
+                fill='#f47a2b'>
+                <title>fill='freeze'</title>
+    
+                <animate attributeName='width' from='30' to='400' dur='0.8s' begin='mouseenter' end='mouseleave'
+                    fill='freeze'>
+                </animate>
+    
+            </rect>
+        </g>
+
+        <g>
+            <rect id='rect' y=90 x='10' width='30' height='30' rx='5' ry='5'
+                fill='#4b85e0'>
+                <title>restart='whenNotActive'</title>
+    
+                <animate attributeName='width' from='30' to='400' dur='0.8s' begin='mouseenter' end='mouseleave'
+                    restart='whenNotActive' fill='freeze'>
+                </animate>
+
+            </rect>
+        </g>
+
+        <g>
+            <rect id='rect' y=130 x='10' width='30' height='30' rx='5' ry='5'
+                fill='#55cf7d'>
+                <title>secont animation </title>
+    
+                <animate attributeName='width' from='30' to='400' dur='0.8s' begin='mouseenter' end='mouseleave'
+                    restart='whenNotActive' fill='freeze'>
+                </animate>
+    
+                <animate attributeName='width' begin='mouseleave' from='400' to='30' dur='0.8s'
+                    restart='whenNotActive' fill='freeze'>
+                </animate>
+            </rect>
+        </g>
+
+        <g>
+            <rect id='rect' y=210 x='10' width='30' height='30' rx='5' ry='5'
+                fill='#55cf7d'>
+                <title>qweqew</title>
+    
+                <animate attributeName='width' from='30' to='400' dur='0.8s' begin='mouseenter' end='mouseleave'
+                    restart='whenNotActive' fill='freeze'>
+                </animate>
+    
+                <animate attributeName='width' begin='mouseleave' from='400' to='30' dur='0.8s'
+                    restart='whenNotActive' fill='freeze'>
+                </animate>
+            </rect>
+        </g>
+
+    </svg>
+</div>
